@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jianqiang.com.activityhook1">
+
+    <application
+        android:name=".UPFApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".StubService1"/>
+        <service android:name=".StubService2"/>
+        <service android:name=".StubService3"/>
+        <service android:name=".StubService4"/>
+        <service android:name=".StubService5"/>
+        <service android:name=".StubService6"/>
+        <service android:name=".StubService7"/>
+        <service android:name=".StubService8"/>
+        <service android:name=".StubService9"/>
+        <service android:name=".StubService10"/>
+
+    </application>
+
+</manifest>

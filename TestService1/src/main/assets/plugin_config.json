@@ -1,0 +1,12 @@
+{ 
+    "plugins": [
+        {
+            "PluginService": "jianqiang.com.testservice1.MyService1",
+            "StubService": "jianqiang.com.activityhook1.StubService1"
+        },
+        {
+            "PluginService": "jianqiang.com.testservice1.MyService2",
+            "StubService": "jianqiang.com.activityhook1.StubService2"
+        }
+    ]
+}
